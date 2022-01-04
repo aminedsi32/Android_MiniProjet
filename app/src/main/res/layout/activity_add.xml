@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/book"
+    tools:context=".AddActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:padding="10sp"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add book"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/addTitre"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Titre"
+            android:textColorHint="#FFFBF8"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/addProp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Propriétaire"
+            android:textColorHint="#FFFBF8"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/addImg"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Image url"
+            android:textColorHint="#FFFBF8"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:paddingLeft="15dp" />
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btncolor"
+            android:textColor="#FFFBF8"/>
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/btncolorback"
+            android:textColor="#FFFBF8"/>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>
